@@ -1,0 +1,70 @@
+.eh-ajax-search-div{
+    width: 230px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#eh-ajax-search-form{
+    margin:0px !important;
+}
+.eh-ajax-search-loader {
+    background-image: url("../img/loader.gif");
+    background-size: 25px 25px;
+    background-position:right 5px center;
+    background-repeat: no-repeat;
+}
+.eh-ajax-search-icon {
+    background-image: url("../img/magnifying_glass.png");
+    background-size: 25px 25px;
+    background-position:left 5px center;
+    background-repeat: no-repeat;
+}
+/* When the input field gets focus, change its width to 100% */
+#eh-ajax-search-text{
+    width: 100%;
+    padding-left: 2em !important;
+}
+#eh-ajax-search-text:focus{
+    padding-left: 1em !important;
+}
+.eh-ajax-search-result-ul{
+    list-style-type: none !important;
+    margin: 0 !important;
+}
+.eh-ajax-search-result-ul>li{
+    border: 1px solid lightgray;
+    border-top: none;
+    padding: 2px 5px;
+    display: block;
+    min-height: 40px;
+    line-height: 30px;
+}
+
+.eh-ajax-search-result-ul>li>img {
+    padding-top: 2px;
+    vertical-align: middle;
+}
+.eh-ajax-search-result-ul>li:first-child{
+    border-top: 1px solid lightgray;
+}
+.eh-ajax-search-result-arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;  
+  border-bottom: 10px solid lightgray;
+}
+.eh-ajax-search-result
+{
+    display: none;
+}
+.eh-ajax-search-result-content{
+    text-overflow:ellipsis;
+    white-space: nowrap; 
+    overflow: hidden;
+    font-size: 0.8em;
+}
+.eh-ajax-search-result-thumb
+{
+    float:left;
+    padding-right: 5px;
+}
